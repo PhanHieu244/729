@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 14ae14cefad647459b2ba0feed06bb66
+timeCreated: 1568629922
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "OpenSans-Italic"
+  fontNames:
+  - Open Sans
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8101aa20daa782d48961655a0d85717, type: 3}
+  m_Name: "Settings"
+  m_EditorClassIdentifier: 
+  TotalMessagesSubmitted: 0
+  TotalMessagesFailed: 0
+  DesignMessagesSubmitted: 0
+  DesignMessagesFailed: 0
+  QualityMessagesSubmitted: 0
+  QualityMessagesFailed: 0
+  ErrorMessagesSubmitted: 0
+  ErrorMessagesFailed: 0
+  BusinessMessagesSubmitted: 0
+  BusinessMessagesFailed: 0
+  UserMessagesSubmitted: 0
+  UserMessagesFailed: 0
+  CustomArea: 
+  gameKey:
+  - "9b1b9c4eaadd8764e4a9336fc9d5d89f"
+  - "a26418d64f4d9334aa7748766ca3f5f0"
+  secretKey:
+  - "46a6645cd2b8c9854480ad79afa34a615dd639a6"
+  - "343d89fea357fc646c44373edbdfe8519656574e"
+  Build:
+  - "0.1"
+  - "0.1"
+  SelectedPlatformStudio:
+  - "MagicLab"
+  - "Magic Yigit"
+  SelectedPlatformGame:
+  - "will crush"
+  - "Will Crush IOS"
+  SelectedPlatformGameID: A0BA000092C50000
+  SelectedStudio: 0200000002000000
+  SelectedGame: 0000000001000000
+  NewVersion: "5.0.8"
+  Changes: "5.0.8\n- fixed freeze bug on exit for desktop platforms\n\n5.0.7\n- added
+  gameanalytics android aar library file instead of jar file\n\n5.0.6\n-
+  tvOS bug fixes\n\n5.0.5\n- added play services resolver\n\n5.0.4\n- added
+  missing playmaker actions\n\n5.0.3\n- fixed playmaker errors\n\n5.0.2\n-
+  changed log warnings to log errors for when notifying the user about
+  not having initialized the SDK before trying to send events\n\n5.0.1\n-
+  fixed compile error for ios\n\n5.0.0\n- added command center functionality\n-
+  fixed various bugs\n\n4.0.6\n- removed mac sqlite library so local installed
+  one is used (mac)\n\n4.0.5\n- fixes to not trying to send events if
+  SDK has not been initialized yet\n\n4.0.4\n- fixes to android session
+  handling\n- added custom dimensions to design and error events\n- fixes
+  to sqlite db path for windows and linux platforms\n\n4.0.3\n- small
+  uwp bug fix (uwp)\n\n4.0.2\n- small editor bug fixes for stop showing
+  log warnings after calling initialize function\n\n4.0.1\n- small update
+  for wehn signing up in editor\n\n4.0.0\n- dumped major version to emphasize
+  the need to use manual initialization of the SDK now\n- added log
+  warnings to warn if the SDK has not been manually initialized before
+  sending events\n\n3.11.3\n- fixed session length bug\n- fixed not allowing
+  to send event when session is not started\n\n3.11.2\n- updated android
+  google play libraries (android)\n\n3.11.1\n- various bug fixes in android
+  native library (android)\n\n3.11.0\n- ui updated for sign up dialog\n-
+  PLEASE NOTE: initialization is now manual and not automatic anymore"
+  SignUpOpen: 1
+  FirstName: 
+  LastName: 
+  StudioName: 
+  GameName: "Will Crash?"
+  PasswordConfirm: 
+  EmailOptIn: 1
+  EmailGA: "boncukceit@gmail.com"
+  IntroScreen: 0
+  InfoLogEditor: 1
+  InfoLogBuild: 1
+  VerboseLogBuild: 0
+  UseManualSessionHandling: 0
+  SendExampleGameDataToMyGame: 0
+  InternetConnectivity: 0
+  CustomDimensions01: []
+  CustomDimensions02: []
+  CustomDimensions03: []
+  ResourceItemTypes: []
+  ResourceCurrencies: []
+  LastCreatedGamePlatform: 0
+  Platforms: 0B00000008000000
+  CurrentInspectorState: 1
+  ClosedHints: 
+  DisplayHints: 0
+  DisplayHintsScrollState: {x: 0, y: 0}
+  Logo: {fileID: 2800000, guid: 6382ad2ffda74d71b1d853c402257f08, type: 3}
+  UpdateIcon: {fileID: 2800000, guid: dc25a5db8c5641af82109ee4a8e71894, type: 3}
+  InfoIcon: {fileID: 2800000, guid: 28dcaca6c46e404da896ae2425091b34, type: 3}
+  DeleteIcon: {fileID: 2800000, guid: 8415e4209480449da9600b6a771118e1, type: 3}
+  GameIcon: {fileID: 2800000, guid: 43f9f509dd444075a031d0df576c8a98, type: 3}
+  HomeIcon: {fileID: 2800000, guid: 6b2e5c70685a4857af4dde2276661587, type: 3}
+  InstrumentIcon: {fileID: 2800000, guid: 590e89ddd79942beb39dbfa5888225ba, type: 3}
+  QuestionIcon: {fileID: 2800000, guid: 41eed080273e45beb1a6cdb33b7439af, type: 3}
+  UserIcon: {fileID: 2800000, guid: 421ada7636ce4eccbf71e159c6557c73, type: 3}
+  AmazonIcon: {fileID: 0}
+  GooglePlayIcon: {fileID: 0}
+  iosIcon: {fileID: 0}
+  macIcon: {fileID: 0}
+  windowsPhoneIcon: {fileID: 0}
+  UseCustomId: 0
+  UsePlayerSettingsBuildNumber: 0
+  SubmitErrors: 1
+  MaxErrorCount: 10
+  SubmitFpsAverage: 1
+  SubmitFpsCritical: 1
+  IncludeGooglePlay: 1
+  FpsCriticalThreshold: 20
+  FpsCirticalSubmitInterval: 1
+  PlatformFoldOut: 0101
+  CustomDimensions01FoldOut: 0
+  CustomDimensions02FoldOut: 0
+  CustomDimensions03FoldOut: 0
+  ResourceItemTypesFoldOut: 0
+  ResourceCurrenciesFoldOut: 0

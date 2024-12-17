@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2c99a51c041d46b98f7567d28b224bb5
+timeCreated: 1568629924
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "OpenSans-Bold"
+  fontNames:
+  - Open Sans
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 
